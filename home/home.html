@@ -9,67 +9,121 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Simonetta:wght@900&display=swap" rel="stylesheet">
 </head>
-<header>
-    <a href="#">
-        <img id="logo_nav" src="./assets_home/img_home/logo_nav.jpg" alt="https://www.google.com/search?q=image+error&sxsrf=ALiCzsZRmTQ_jxzeCw4pc7em3VDTqZ1Pig:1652559493401&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiL8svs59_3AhUbwosBHYj7BFoQ_AUoAXoECAEQAw&biw=1536&bih=718&dpr=1.25#imgrc=SV4OFBriF8dLbM&imgdii=Q_FpUzHzZxB9QM"/>
-    </a>
-    <nav>
-        <ul>
-            <!-- <li><a href="#">HOME</a></li> -->
-            <li><a href="#">SHARING ROOM</a></li>
-            <li><a href="#">HEALING ZONE</a></li>
-            <li><a href="../articles/articles.html">ARTICLES</a></li>
-            <li><a href="#">PROFESSIONAL HELP</a></li>
-            <li><a href="../aboutus/aboutus.html">ABOUT US</a></li>
-            <li><a href="#">Sign up</a></li>
-            <li><a href="#">Log in</a></li>
-        </ul>
-    </nav>
-</header>
+
 <body>
-    <div id="content">
-        <div id="webintro">
-            <img src="./assets_home/img_home/homepage.jpg" alt="https://www.google.com/search?q=image+error&sxsrf=ALiCzsZRmTQ_jxzeCw4pc7em3VDTqZ1Pig:1652559493401&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiL8svs59_3AhUbwosBHYj7BFoQ_AUoAXoECAEQAw&biw=1536&bih=718&dpr=1.25#imgrc=SV4OFBriF8dLbM&imgdii=Q_FpUzHzZxB9QM">
-            <h1>Mi Casa</h1>
-            <div class="p-webintro">
-                <p>Mi Casa is the home for the vulnerables, where you can find mutual understanding and a cure, together</p>
-            </div>
-            <div class="p-webnote">
-                <p>If you ever feel unwell, we hope you seek for Mi Casa...</p>
-            </div>
-        <div id="functions">
-            <div class="functionname">
+    <!-- Navigation bar -->
+    <header>
+        <a href="#" class="logo-nav">
+            <img src="./assets_home/img_home/logo_nav.jpg" alt=""/>
+        </a>
+        <div class="nav-container">
+            <nav class="nav-page-container">
+                <a class="nav-page-item" href="#">SHARING ROOM</a>
+                <a class="nav-page-item" href="#">HEALING ZONE</a>
+                <a class="nav-page-item" href="../articles/articles.html">ARTICLES</a></l>
+                <a class="nav-page-item" href="#">PROFESSIONAL HELP</a>
+                <a class="nav-page-item" href="../aboutus/aboutus.html">ABOUT US</a>
+            </nav>
+            <nav class="nav-account-container">
+                <a class="nav-account-item" href="../sign up/signup.html">Sign up</a>
+                <a class="nav-account-item" href="../login/login.html">Log in</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="Home-page-content">
+    <!-- Web Intro -->
+        <div class="web-intro">
+            <img src="./assets_home/img_home/homepage.jpg" alt="">
+        </div>
+
+    <!-- Web Functions -->
+    <!-- Sharing Room -->
+        <div class="functions">
+            <div class="function-name">
                 <h2>Sharing Room</h2>
             </div>
-            <div class="functiondesc">
-                <div><p>In the Sharing Room, we can share our stories and life experiences under anonymity; as well as read, react or leave comments on others'...</p></div>
-                <div><img src="./assets_home/img_home/Sharingroom.png" alt="https://www.google.com/search?q=image+error&sxsrf=ALiCzsZRmTQ_jxzeCw4pc7em3VDTqZ1Pig:1652559493401&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiL8svs59_3AhUbwosBHYj7BFoQ_AUoAXoECAEQAw&biw=1536&bih=718&dpr=1.25#imgrc=SV4OFBriF8dLbM&imgdii=Q_FpUzHzZxB9QM"></div>
+            <div class="function-desc">
+                <div>
+                    <p>In the Sharing Room, we can share our stories and life experiences under anonymity; as well as read, react or leave comments on others'...</p>
+                </div>
+            <div class="function-ava">
+                <img src="./assets_home/img_home/Sharingroom.png" alt="">
             </div>
-            <div class="navibutton">
+            <div class="function-button">
                 <a href="#">
                     <p>So, do you mind sharing us your story?</p>
                 </a>
             </div>
-            <div class="functionname">
+        </div>
+
+    <!-- Healing Zone -->
+        <div class="functions">
+            <div class="function-name">
+                <h2>Healing Zone</h2>
+            </div>
+            <div class="function-desc">
+                <div>
+                    <p>In the Healing Zone, we offer group workspace and various healing activities that you could either do by yourself or with others...</p>
+                </div>
+            <div class="function-ava">
+                <img src="./assets_home/img_home/Healingzone.png" alt="">
+            </div>
+            <div class="function-button">
+                <a href="#">
+                    <p>Click here to explore our Healing Zone</p>
+                </a>
+            </div>
+        </div>
+
+    <!-- Articles -->
+        <div class="functions">
+            <div class="function-name">
+                <h2>Articles</h2>
+            </div>
+            <div class="function-desc">
+                <div>
+                    <h3>Mental Health Check list!</h3>
+                    <p>Take care of yourself and brighten your mood with the newest mental health check list</p>
+                </div>
+            <div class="function-ava">
+                <img src="./assets_home/img_home/Articles.png" alt="">
+            </div>
+            <div class="function-button">
+                <a href="#">
+                    <p>Click here to find more articles</p>
+                </a>
+            </div>
+        </div>
+
+    <!-- Professional Help -->        
+        <div class="functions">
+            <div class="function-name">
                 <h2>Professional Help</h2>
             </div>
-            <div class="functiondesc">
-                <div><p>Our selectively-chosen partnering clinics and mental health professionals offer live chatting and appointment booking, and more...</p></div>
-                <div><img src="./assets_home/img_home/Prohelp.png" alt="https://www.google.com/search?q=image+error&sxsrf=ALiCzsZRmTQ_jxzeCw4pc7em3VDTqZ1Pig:1652559493401&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiL8svs59_3AhUbwosBHYj7BFoQ_AUoAXoECAEQAw&biw=1536&bih=718&dpr=1.25#imgrc=SV4OFBriF8dLbM&imgdii=Q_FpUzHzZxB9QM"></div>
+            <div class="function-desc">
+                <div>
+                    <p>Our selectively-chosen partnering clinics and mental health professionals offer live chatting and appointment booking, and more...</p>
+                </div>
+            <div class="function-ava">
+                <img src="./assets_home/img_home/Prohelp.png" alt="">
             </div>
-            <div class="navibutton">
+            <div class="function-button">
                 <a href="#">
                     <p>Click here to find out about our partnering clinics</p>
                 </a>
             </div>
         </div>
     </div>
-    <div id="footer">
-        <img id="logo_footer" src="./assets_home/img_home/logo_foot.jpg" />
-        <p>Mi Casa®
-        <br/>
-        Contact us via: micasa@work.com
-        <br/>
-        Tel: +84 903456782</p>
+
+    <!-- Footer -->
+    <div class="footer">
+        <img class="footer-logo" src="./assets_home/img_home/logo_foot.jpg" />
+        <div class="footer-contact">
+            <p>Mi Casa®</p>
+            <p>Contact us via: micasa@work.com</p>
+            <p>Tel: +84 903456782</p>
+        </div>
     </div>
+</body>
 </html>
