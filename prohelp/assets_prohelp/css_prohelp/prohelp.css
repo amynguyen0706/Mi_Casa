@@ -83,69 +83,17 @@ a:hover{
     transition: 0.2s;
 }
 
-/* Headings */
-.heading{
-    color: #1A6C61;
-    font-size: 2em;
-    font-family: "Simonetta";
-    text-align: center;
-    margin-top: 50px;
-}
-.heading h1{
-    font-weight: bold;
-}
-.heading h2{
-    font-weight: lighter;
-}
-
-/* Paragraph */
-.p-article {
-    padding: 3rem 6rem;
-    color: #1A6C61;
-    font-family: "Simonetta";
-    font-size: 1.8em;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-/* Article infographic */
-.imagebox{
+/* Content */
+.prohelp-content {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.imagebox img{
+.prohelp-content img {
     width: 100%;
 }
-
-/* Pagination */
-.pagination {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 3rem 0rem;
-  }
-  
-  .pagination.control {
-    transform: rotate(90deg);
-  }
-  
-  .pagination a {
-    width: 4rem;
-    font-weight: 100;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .pagination a.active {
-    background-color: #ffffff;
-    color: #2a59fe;
-  }
 
 /* Footer */
 .footer {
