@@ -83,6 +83,99 @@ a:hover{
     transition: 0.2s;
 }
 
+/* Body */
+.web-intro {
+    display: flex;
+    flex-direction: column;
+    height: 87vh;
+}
+
+.web-intro img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Function */
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-bottom: 10rem;
+}
+
+.functions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.function-name {
+    font-family: "Simonetta";
+    font-size: 3em;
+    font-weight: 900;
+    color: #1A6C61;
+}
+
+.function-body-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.function-desc {
+    display: flex;
+    align-items: center;
+    font-family: "Simonetta";
+    font-style: italic;
+    color: #1A6C61;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.function-desc p {
+    font-size: 2em;
+}
+
+.function-desc.article h3 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.function-desc.article p {
+    font-size: 1.3em;
+    font-style: normal;
+    font-family: "Montserrat";
+}
+
+.function-ava {
+    height: 25rem;
+}
+
+.function-ava img {
+    height: 100%;
+    width: auto;
+}
+
+.function-button {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #1A6C61;
+    text-align: center;
+    text-decoration: none;
+    color: #C5F3E2;
+    font-family: "Simonetta";
+    font-size: 2em;
+}
+
 /* Footer */
 .footer {
     display: flex;
